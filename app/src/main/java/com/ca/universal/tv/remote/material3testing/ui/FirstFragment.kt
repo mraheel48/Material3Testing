@@ -1,4 +1,4 @@
-package com.ca.universal.tv.remote.material3testing
+package com.ca.universal.tv.remote.material3testing.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.ca.universal.tv.remote.material3testing.R
 import com.ca.universal.tv.remote.material3testing.databinding.FragmentFirstBinding
 
 /**

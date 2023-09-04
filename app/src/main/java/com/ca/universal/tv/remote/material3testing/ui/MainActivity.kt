@@ -1,4 +1,4 @@
-package com.ca.universal.tv.remote.material3testing
+package com.ca.universal.tv.remote.material3testing.ui
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,6 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import com.ca.universal.tv.remote.material3testing.R
 import com.ca.universal.tv.remote.material3testing.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -44,10 +45,12 @@ class MainActivity : AppCompatActivity() {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        return when (item.itemId) {
+        /*return when (item.itemId) {
             R.id.action_settings -> true
             else -> super.onOptionsItemSelected(item)
-        }
+
+        }*/
+        return true
     }
 
     override fun onSupportNavigateUp(): Boolean {
